@@ -7,3 +7,4 @@
 @media(max-width:850px){.overview-list{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:650px){.overview{padding:15px;margin:18px 0}#all-map{height:390px}.overview-controls>span{width:100%;margin-left:0}.overview-list{grid-template-columns:1fr}.overview-head h2{font-size:22px}}
 .checked-store{border-color:#62ad82;box-shadow:inset 4px 0 #17834d}.dark .leaflet-tile-pane{filter:brightness(.62) contrast(1.2) saturate(.6)}
+#day-map{width:100%;height:360px;border-radius:10px;background:var(--bg);z-index:0}@media(max-width:650px){#day-map{height:300px}}
